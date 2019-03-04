@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px;
+    color: gold;
+    font-style: italic;
+    border: 1px dashed gold;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.text-gold {
+    color: gold
+}
+
+.italic {
+    font-style: italic;
+}
