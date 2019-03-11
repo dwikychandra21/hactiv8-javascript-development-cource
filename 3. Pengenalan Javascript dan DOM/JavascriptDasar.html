@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pengenalan Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1></h1>
+    <input type="text" id="data" placeholder="Data" value="Test">
+    <p></p>
+    <button onclick="alert('nice')">click me</button>
+    <button onclick="showPrompt()">show prompt</button>
+    <div id="box" style="width: 100px; height: 100px; background: gold">
+        hover me
+    </div>
+    <script src="main.js"></script>
+    <script>
+        function showPrompt() {
+            const name = prompt("Enter Your Name");
+            alert(name);
+        }
+    </script>
+</body>
+</html>
